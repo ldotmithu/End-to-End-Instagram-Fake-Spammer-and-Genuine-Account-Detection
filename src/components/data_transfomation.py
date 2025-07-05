@@ -33,7 +33,6 @@ class DataTransform:
         data = pd.read_csv(self.transform.data_path)
         data.dropna(inplace=True)
         data.drop_duplicates(inplace=True)
-        data.drop(columns=self.schema['drop_columns'])
         
         preprocess_obj = self.preprocess_step()
         

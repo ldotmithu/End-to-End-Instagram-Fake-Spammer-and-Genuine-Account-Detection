@@ -27,5 +27,3 @@ num_columns:
   - followers
   - follows
 
-drop_columns:
-  - profile pic
