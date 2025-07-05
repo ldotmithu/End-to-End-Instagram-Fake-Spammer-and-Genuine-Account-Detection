@@ -1,0 +1,31 @@
+columns:
+  - profile pic
+  - length_username
+  - fullname words
+  - length_fullname
+  - name_edual_username
+  - description length
+  - external URL
+  - private
+  - posts
+  - followers
+  - follows
+  - fake
+target:
+  - fake
+
+num_columns:
+  - profile pic
+  - length_username
+  - fullname words
+  - length_fullname
+  - name_edual_username
+  - description length
+  - external URL
+  - private
+  - posts
+  - followers
+  - follows
+
+drop_columns:
+  - profile pic
